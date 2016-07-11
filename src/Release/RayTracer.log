@@ -1,0 +1,27 @@
+﻿Построение начато 01.12.2015 22:28:00.
+     1>Проект "C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\RayTracer.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\RayTracer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tracer.cpp
+         Tracer.cpp
+     1>Tracer.cpp(313): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(314): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(315): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\..\bin\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RayTracer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\bin\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\..\bin\RayTracer.lib" /MACHINE:X86 Release\Main.obj
+         Release\Scene.obj
+         Release\Tracer.obj
+         Создание кода
+         Создание кода завершено
+         RayTracer.vcxproj -> C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\..\bin\RayTracer.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\..\bin\RayTracer.exe;#1" /manifest Release\RayTracer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\RayTracer.unsuccessfulbuild" удаляется.
+         Обращение к "Release\RayTracer.lastbuildstate".
+     1>Построение проекта "C:\Documents and Settings\Администратор\Рабочий стол\RayTracer-3\src\RayTracer.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.82
